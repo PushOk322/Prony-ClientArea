@@ -5,31 +5,18 @@
 @import './Components/BigComponents/head.scss';
 @import './Components/BigComponents/dashboard.scss';
 @import './Components/BigComponents/boardlist.scss';
-@import './Components/BigComponents/boardpages.scss';
-@import './Components/BigComponents/postlist.scss';
-@import './Components/BigComponents/postvoters.scss';
-@import './Components/BigComponents/importpost.scss';
-@import './Components/BigComponents/editpost.scss';
-@import './Components/BigComponents/postview.scss';
-@import './Components/BigComponents/tags.scss';
-@import './Components/BigComponents/edittags.scss';
-@import './Components/BigComponents/replacetag.scss';
-@import './Components/BigComponents/userlist.scss';
-@import './Components/BigComponents/userdetails.scss';
-@import './Components/BigComponents/activities.scss';
-@import './Components/BigComponents/usersegments.scss';
-@import './Components/BigComponents/statuses.scss';
-@import './Components/BigComponents/changeloglist.scss';
-@import './Components/BigComponents/changeloglabels.scss';
-@import './Components/BigComponents/settings.scss';
-@import './Components/BigComponents/settingsothers.scss';
+@import './Components/BigComponents/footer.scss';
+@import './Components/Workspaces/workspaces.scss';
+@import './Components/Profile/profile.scss';
+@import './Components/Billing/paymentmethods.scss';
+@import './error.scss';
 
 @import './Pages/main.scss';
 
 html {
     overflow-x: hidden;
     min-width: 0;
-
+    height: 100%;
 }
 
 html._lock {
@@ -43,11 +30,15 @@ body {
     width: 100%;
     overflow-x: hidden;
     min-width: 0;
+    height: 100%;
 }
+
+
 
 body._lock {
     overflow-y: hidden;
 }
+
 
 #root {
     margin-top: 0;
@@ -55,13 +46,29 @@ body._lock {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 100%;
     overflow-x: hidden;
-    background:#F9F9FC;
-
     min-width: 0;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .height {
     height: 10000px;
+}
+
+.body {
+    width: 100%;
+    max-width: 1130px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 134px;
 }
 

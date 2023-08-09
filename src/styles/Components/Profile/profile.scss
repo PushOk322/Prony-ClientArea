@@ -1,0 +1,297 @@
+.profile {
+    margin: 51px 0 0 -36px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(202, 221, 255, 0.55);
+    padding: 27px 37px 40px 37px;
+    width: 444px;
+    height: 429px;
+    flex-shrink: 0;
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__heading {
+        margin: 1px 0 0 0;
+        color: var(--272557, #272557);
+        font-family: Poppins-400;
+        font-size: 12px;
+        line-height: 21px;
+        /* 175% */
+        letter-spacing: 0.079px;
+    }
+
+    &__input {
+        width: 100%;
+        height: 44px;
+        padding: 0 0 0 21px;
+        color: var(--cddaf-2, #CDDAF2);
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Poppins-400;
+        font-size: 14px;
+        line-height: 25.9px;
+        /* 185% */
+        letter-spacing: -0.219px;
+        border-radius: 7px;
+        border: 1px solid var(--e-5-ecf-9, #E5ECF9);
+
+        &::placeholder {
+            color: #CDDAF2;
+        }
+    }
+
+    &__buttons {
+        margin: 15px 1px 0 0;
+        display: flex;
+        flex-direction: row;
+        gap: 28px;
+        align-self: flex-end;
+    }
+
+    &__cancel-button {}
+}
+
+
+.avatar {
+    margin: 51px 0 0 -36px;
+    width: 537px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(202, 221, 255, 0.55);
+    padding: 28px 37px 40px 37px;
+    display: flex;
+    flex-direction: column;
+
+    &__heading {
+        color: #272557;
+        font-family: Poppins-400;
+        font-size: 12px;
+        line-height: 21px;
+        /* 175% */
+        letter-spacing: 0.079px;
+    }
+
+    &__content {
+        margin: 18px 0 17px 0;
+        display: flex;
+        flex-direction: row;
+        gap: 48px;
+    }
+
+    &__img {
+        width: 176px;
+        height: 176px;
+    }
+
+    &__files-container {
+        display: flex;
+        flex-direction: row;
+        gap: 31px;
+    }
+
+    &__file-container {
+        margin: 26px 0 0 0;
+        position: relative;
+        width: 239px;
+        height: 131px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 1px dashed var(--colors-grey-300, #E0E0E0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__clip-icon {
+        margin: 37px 0 0 1px;
+        width: 16px;
+        height: 16px;
+    }
+
+    &__file-text {
+        margin: -1px 0 0 0.5px;
+        color: var(--colors-grey-500, #9E9E9E);
+        font-family: Poppins-400;
+        font-size: 12px;
+        line-height: 21px;
+        letter-spacing: 0.079px;
+        text-align: center;
+
+        label {
+            cursor: pointer;
+            color: #1565C0;
+        }
+
+        div {
+            margin: -5px 0 0 0;
+        }
+    }
+
+    &__input {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+    }
+
+    &__imported {
+        margin: 10px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        &.record {
+            width: 100%;
+            max-width: 584px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__imported-file {
+        display: flex;
+        flex-direction: row;
+        color: var(--colors-2-secondary, #1565C0);
+        font-variant-numeric: lining-nums proportional-nums;
+
+        /* Body2 dedisse scrips */
+        font-family: Poppins-400;
+        font-size: 12px;
+        line-height: 17px;
+        /* 141.667% */
+        letter-spacing: 0.6px;
+    }
+
+    &__image-preview {
+        width: 93px;
+        height: 68px;
+    }
+
+    &__imported-icon {
+        margin: -3px 0 0 0;
+        width: 16px;
+        height: 16px;
+    }
+
+    &__cancel-icon {
+        width: 20px;
+        height: 20px;
+        margin: 0px 0 0 9px;
+        cursor: pointer;
+    }
+
+
+    &__buttons {
+        margin: 15px 5px 0 0;
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        gap: 28px;
+
+        .workspace-edit__cancel-button {
+            margin: 1px 0 0 1px;
+        }
+
+        .workspace-list__add-text {
+            margin: 1px 0 0 1px;
+        }
+    }
+
+}
+
+
+.socials {
+    margin: 51px 0 0 -36px;
+    width: 444px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 0px rgba(202, 221, 255, 0.55);
+    padding: 29px 0px 35px 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    &__row {
+        display: flex;
+        flex-direction: row;
+        gap: 21px;
+    }
+
+    &__box-border {
+        width: 257px;
+        height: 49px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+        background: rgba(229, 236, 249, 0.37);
+    }
+
+    &__box {
+        width: 251px;
+        height: 43px;
+        flex-shrink: 0;
+        border-radius: 7px;
+        background: #FFF;
+        border: 1px solid #E5ECF9;
+
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding: 8px 0 0 15px;
+
+        &.active {
+            padding: 8.5px 0 0 15.5px;
+            width: 250px;
+            height: 42px;
+            border-radius: 7px;
+            border: none;
+            background: var(--colors-2-secondary, #1565C0);
+
+            .socials__text {
+                color: #FFF;
+            }
+        }
+    }
+
+    &__icon {
+        margin: 1px 0 0 0;
+        width: 24px;
+        height: 24px;
+    }
+
+    &__text {
+        color: #272557;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Poppins-400;
+        font-size: 14px;
+        line-height: 25.9px;
+        /* 185% */
+        letter-spacing: -0.219px;
+    }
+
+    &__connect-button {
+        margin: 6px 0 0 0;
+        color: var(--colors-2-secondary, #1565C0);
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: Poppins-400;
+        font-size: 14px;
+        line-height: 38.8px;
+        /* 277.143% */
+        text-decoration-line: underline;
+
+        cursor: pointer;
+    }
+}
