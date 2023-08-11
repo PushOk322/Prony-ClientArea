@@ -15,6 +15,8 @@ export default function NotFound() {
             </div>
 
             <div class="body">
+
+                {/* 404-component */}
                 <div class="page-404">
 
                     <div class="page-404__title">
@@ -34,6 +36,8 @@ export default function NotFound() {
                     </Link>
 
                 </div>
+                {/* 404-component */}
+
 
             </div>
 

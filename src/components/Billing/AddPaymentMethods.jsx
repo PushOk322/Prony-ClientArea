@@ -38,7 +38,7 @@ const AddPaymentMethods = ({ components, setCurrentComponent }) => {
                             <div class="add-payment__title">CVV</div>
                             <div class="add-payment__title">Expiration date</div>
                         </div>
-                        
+
                         <div class="add-payment__input-row">
                             <input type="text" class="add-payment__input cvv" placeholder="" />
                             <input type="text" class="add-payment__input date" placeholder="/" />

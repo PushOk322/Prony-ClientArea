@@ -103,7 +103,7 @@
         flex-direction: row;
         gap: 30px;
         padding: 11px 0 0 20px;
-        margin: 54px 0 0 247px;
+        margin: 54px 0 243px 247px;
         z-index: 25;
         position: relative;
         border-radius: 30px;
@@ -164,7 +164,7 @@
 
 
 .add-payment {
-    margin: 51px 0 0 -36px;
+    margin: 51px 0 -10px -36px;
     width: 600px;
     height: 535px;
     flex-shrink: 0;
@@ -249,7 +249,7 @@
 }
 
 .billing-history {
-    margin: 51px 0 0 -36px;
+    margin: 51px 0 -21px -36px;
     width: 864px;
     flex-shrink: 0;
     display: flex;
@@ -396,7 +396,7 @@
 }
 
 .billing-plan {
-    margin: 15.5px 0 0 -36px;
+    margin: 15.5px 0 3px -36px;
     display: flex;
     flex-direction: column;
 

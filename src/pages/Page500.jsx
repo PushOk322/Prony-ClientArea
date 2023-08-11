@@ -16,6 +16,8 @@ export default function ServerError() {
             </div>
 
             <div class="body">
+
+                {/* 505 Component */}
                 <div class="page-404">
 
                     <div class="page-404__title">
@@ -38,6 +40,7 @@ export default function ServerError() {
                     </div>
 
                 </div>
+                {/* 505 Component */}
 
             </div>
 
